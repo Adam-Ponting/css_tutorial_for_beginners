@@ -1,0 +1,14 @@
+/**********************
+*                     *
+*   Author: Adam P    *
+*   Date: 15/04/20    *
+*                     *
+**********************/
+
+p {
+  color: red !important;
+}
+
+#main-content p {
+  color: green;
+}

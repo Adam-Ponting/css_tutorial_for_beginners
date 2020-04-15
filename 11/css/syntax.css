@@ -1,0 +1,22 @@
+/**********************
+*                     *
+*   Author: Adam P    *
+*   Date: 15/04/20    *
+*                     *
+**********************/
+body {
+  color: red;
+}
+
+div {
+  color: blue;
+}
+
+p {
+  color: green;
+}
+
+a {
+  color: yellow;
+  text-decoration: underline;
+}
