@@ -1,0 +1,21 @@
+/**********************
+*                     *
+*   Author: Adam P    *
+*   Date: 15/04/20    *
+*                     *
+**********************/
+#main-content p {
+  color: red;
+}
+
+p {
+  color: black;
+}
+
+.test {
+  color: green;
+}
+
+strong {
+  color: green;
+}
