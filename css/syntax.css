@@ -4,6 +4,36 @@
 *   Date: 16/04/20    *
 *                     *
 **********************/
-#all-articles h2 + p {
-  color: green;
+/* select all spans with a class attribute */
+span[class] {
+  /* color: purple; */
+}
+
+/* select all div with an id */
+div[id] {
+  background: grey;
+}
+
+/* select any link with a title */
+a[title] {
+  color: red;
+}
+
+/* title must be 'a link' */
+a[title='a link'] {
+  color: pink;
+}
+
+/* if it has the class of deck anywhere in its list */
+span[class~='deck'] {
+  color: blueviolet;
+}
+
+a[href$='.pdf'] {
+  /* color: brown; */
+}
+
+/* href begins with */
+a[href^='http'] {
+  color: lime;
 }
