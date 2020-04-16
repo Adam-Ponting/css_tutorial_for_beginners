@@ -4,6 +4,6 @@
 *   Date: 16/04/20    *
 *                     *
 **********************/
-#sub-content p {
+#main-content > p {
   color: red;
 }
