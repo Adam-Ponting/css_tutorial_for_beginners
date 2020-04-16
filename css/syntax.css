@@ -4,14 +4,11 @@
 *   Date: 16/04/20    *
 *                     *
 **********************/
-a:hover {
-  color: lime;
-}
 
-a:active {
-  color: orange;
+/* pseudo class */
+article p:first-child {
+  font-weight: bold;
 }
-
-a:visited {
-  color: purple;
+article p:last-child {
+  color: red;
 }
