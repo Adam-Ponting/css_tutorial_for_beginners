@@ -6,9 +6,18 @@
 **********************/
 
 /* pseudo class */
+/* first/last no longer works as the p is no longer first or last in the article */
 article p:first-child {
   font-weight: bold;
 }
 article p:last-child {
+  color: red;
+}
+
+/* first/last of type */
+article p:first-of-type {
+  color: lime;
+}
+article p:last-of-type {
   color: red;
 }
