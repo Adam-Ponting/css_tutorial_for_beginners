@@ -5,19 +5,22 @@
 *                     *
 **********************/
 
-/* pseudo class */
-/* first/last no longer works as the p is no longer first or last in the article */
-article p:first-child {
+li:nth-child(1),
+li:nth-child(7) {
   font-weight: bold;
 }
-article p:last-child {
-  color: red;
+
+li:nth-child(even) {
+  /* background: grey; */
 }
 
-/* first/last of type */
-article p:first-of-type {
-  color: lime;
+li:nth-child(odd) {
+  /* background: pink; */
 }
-article p:last-of-type {
+
+li:nth-child(2n + 1) {
+  /* color: red; */
+}
+li:nth-child(3n + 1) {
   color: red;
 }
