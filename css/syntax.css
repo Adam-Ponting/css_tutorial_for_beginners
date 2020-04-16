@@ -1,13 +1,9 @@
 /**********************
 *                     *
 *   Author: Adam P    *
-*   Date: 15/04/20    *
+*   Date: 16/04/20    *
 *                     *
 **********************/
-span {
-  color: blue;
-}
-
-span {
+#sub-content p {
   color: red;
 }
