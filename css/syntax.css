@@ -4,10 +4,12 @@
 *   Date: 16/04/20    *
 *                     *
 **********************/
-article.featured-content {
-  background-color: red;
+/* * targets all tags directly, doesnt rely on inheritence */
+* {
+  color: blue;
+  font-size: 10px;
 }
-
-div.featured-content {
-  background-color: blue;
+body {
+  color: red;
+  font-size: 10px;
 }
