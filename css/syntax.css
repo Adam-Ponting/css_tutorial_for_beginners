@@ -4,14 +4,19 @@
 *   Date: 17/04/20    *
 *                     *
 **********************/
-a {
-  color: crimson;
-  text-decoration: none;
-  font-weight: bold;
+body {
+  background-color: #eee;
 }
-
-a:hover {
-  color: darkmagenta;
-  background-color: aquamarine;
-  text-decoration: underline;
+#main-content {
+  background-color: #fff;
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 20px;
+}
+p {
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+  line-height: 1.2em;
 }
