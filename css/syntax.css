@@ -4,16 +4,14 @@
 *   Date: 17/04/20    *
 *                     *
 **********************/
-/* article {
-  text-decoration: overline;
+h1 {
+  font-weight: normal;
 }
-body {
-  text-decoration: underline;
-}
-a {
-  text-decoration: inherit;
-} */
 
-a {
-  text-decoration: line-through;
+p:first-of-type {
+  font-weight: thin;
+}
+p {
+  font-weight: 100;
+  font-family: 'Yu Gothic';
 }
