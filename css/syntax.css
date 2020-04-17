@@ -4,14 +4,12 @@
 *   Date: 17/04/20    *
 *                     *
 **********************/
-h1 {
-  font-weight: normal;
+#header > p {
+  text-transform: capitalize;
 }
-
-p:first-of-type {
-  font-weight: thin;
+body {
+  text-transform: uppercase;
 }
-p {
-  font-weight: 100;
-  font-family: 'Yu Gothic';
+body > p {
+  text-transform: none;
 }
