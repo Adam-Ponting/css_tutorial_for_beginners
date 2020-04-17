@@ -4,12 +4,14 @@
 *   Date: 17/04/20    *
 *                     *
 **********************/
-#header > p {
-  text-transform: capitalize;
+#header h1 {
+  color: chocolate;
 }
-body {
-  text-transform: uppercase;
+
+#header h2 {
+  color: #123456;
 }
-body > p {
-  text-transform: none;
+
+#header {
+  background-color: antiquewhite;
 }
