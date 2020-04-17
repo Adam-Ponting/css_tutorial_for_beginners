@@ -4,17 +4,16 @@
 *   Date: 17/04/20    *
 *                     *
 **********************/
-/* h1 {
-  font-size: 48px;
+/* article {
+  text-decoration: overline;
 }
-h2 {
-  font-size: 32px;
+body {
+  text-decoration: underline;
 }
-p {
-  font-size: 16px;
+a {
+  text-decoration: inherit;
 } */
 
-article h2,
-article p {
-  font-family: Arial, Helvetica, sans-serif;
+a {
+  text-decoration: line-through;
 }
