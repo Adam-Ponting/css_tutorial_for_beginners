@@ -4,14 +4,14 @@
 *   Date: 17/04/20    *
 *                     *
 **********************/
-#header h1 {
-  color: chocolate;
+a {
+  color: crimson;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-#header h2 {
-  color: #123456;
-}
-
-#header {
-  background-color: antiquewhite;
+a:hover {
+  color: darkmagenta;
+  background-color: aquamarine;
+  text-decoration: underline;
 }
