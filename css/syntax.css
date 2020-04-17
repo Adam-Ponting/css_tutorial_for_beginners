@@ -1,15 +1,27 @@
 /**********************
 *                     *
 *   Author: Adam P    *
-*   Date: 16/04/20    *
+*   Date: 17/04/20    *
 *                     *
 **********************/
-/* * targets all tags directly, doesnt rely on inheritence */
-* {
-  color: blue;
-  font-size: 10px;
+/* h1 {
+  font-size: 48px;
 }
-body {
-  color: red;
-  font-size: 10px;
+h2 {
+  font-size: 32px;
+}
+p {
+  font-size: 16px;
+} */
+
+article {
+  font-size: 16px;
+}
+
+article h2 {
+  font-size: 3em;
+}
+
+article p {
+  font-size: 50%;
 }
