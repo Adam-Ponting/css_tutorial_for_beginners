@@ -8,10 +8,12 @@
   box-sizing: border-box;
 } */
 .box {
-  margin: 30px;
-  padding: 20px;
+  /* margin: 30px 20px 15px 5px; */
+  /* margin: 30px 15px;  */
+  /* margin: 30px 15px 5px; */
+  /* margin: 30px; */
+  /* margin: 30px 15px 15px 15px; */
   border: 1px solid #000000;
-  /* max-width: 100%; */
-  width: 200px;
-  /* height: 200px; */
+  width: 50%;
+  margin: 30px 25%;
 }
