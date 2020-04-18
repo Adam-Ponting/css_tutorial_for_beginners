@@ -1,22 +1,17 @@
 /**********************
 *                     *
 *   Author: Adam P    *
-*   Date: 17/04/20    *
+*   Date: 18/04/20    *
 *                     *
 **********************/
-body {
-  background-color: #eee;
-}
-#main-content {
-  background-color: #fff;
-  width: 1200px;
-  margin: 0 auto;
-  height: 100%;
+/* * {
+  box-sizing: border-box;
+} */
+.box {
+  margin: 30px;
   padding: 20px;
-}
-p {
-  font-size: 14px;
-  line-height: 2em;
-  padding-bottom: 42px;
-  margin-bottom: 0;
+  border: 1px solid #000000;
+  /* max-width: 100%; */
+  width: 200px;
+  /* height: 200px; */
 }
