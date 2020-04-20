@@ -5,9 +5,13 @@
 *                     *
 **********************/
 
-.static-width {
+#banner {
+  background-color: #606060;
   width: 600px;
   height: 600px;
-  background: blue url(https://source.unsplash.com/300x300/?beach) no-repeat top center;
-  background-size: 200px;
+  background-image: url(https://source.unsplash.com/200x200/?flag),
+    url(https://source.unsplash.com/200x200/?beach);
+  background-repeat: no-repeat;
+  background-position: left, top right;
+  background-size: 300px, contain;
 }
