@@ -5,9 +5,35 @@
 *                     *
 **********************/
 
-#banner {
-  width: 600px;
-  height: 600px;
-  /* background-color: #cab; */
-  background-color: hsl(271, 52%, 50%);
+#circle-1 {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  background-color: red;
+  border-radius: 200px;
+  top: 25px;
+  left: 25px;
+  opacity: 1;
+  text-align: center;
+}
+#circle-2 {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  background-color: green;
+  border-radius: 200px;
+  top: 125px;
+  left: 75px;
+  opacity: 0.3;
+  text-align: center;
+}
+#circle-3 {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  background-color: rgba(0, 0, 255, 0.1);
+  border-radius: 200px;
+  top: 25px;
+  left: 175px;
+  text-align: center;
 }
